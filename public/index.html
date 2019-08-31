@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content="telephone=no" name="format-detection">
+    <link rel="icon" href="//img.souche.com/f2e/8bf1e293f60dfbca732feb8f54420ac3.ico" type="image/x-icon" />
+    <script type="text/javascript" src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
+
+    <!--uc基础代码-->
+    <script>
+        (function(w, d, t, s, q, m, n) {
+            if (w.utq) return;
+            q = w.utq = function() {
+                q.process ? q.process(arguments) : q.queue.push(arguments);
+            };
+            q.queue = [];
+            m = d.getElementsByTagName(t)[0];
+            n = d.createElement(t);
+            n.src = s;
+            n.async = true;
+            m.parentNode.insertBefore(n, m);
+        })(window, document, 'script', 'https://image.uc.cn/s/uae/g/0s/ad/utracking.js');
+        utq('set', 'convertMode', true);
+        utq('set', 'trackurl', 'huichuan.sm.cn/lp');
+    </script>
+    <!---uc事件代码-->
+    <!--
+      h5/findCar 对应的事件代码
+      utq('track', 'FormSubmit', '348805');
+       
+       car/list 对应的事件代码
+       utq('track', 'FormSubmit', '348803');
+    -->
+
+    <!---安装abtest--->
+    <!--tf-线上代码-->
+    <!--暂时先注释abtest代码-->
+    <!--
+    <script>
+        var _dgt = _dgt || [];
+        window._dgt = _dgt;
+        (function() {
+            _dgt.push(['setSiteId', 'de633367d1c6b9b4']);
+            var d = document,
+                g = d.createElement('script'),
+                s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript';
+            g.async = true;
+            g.defer = true;
+            g.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 't.shujike.com/dgt.js';
+            s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    -->
+</head>
+
+<body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+</body>
+
+</html>
