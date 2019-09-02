@@ -1,5 +1,7 @@
 # jupiter-versioncontrol
 
+基于 H5 的版本控制
+
 ## 项目分支
 
 -   [router](https://github.com/ssgnoob/versionControl/tree/router)
